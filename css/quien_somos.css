@@ -1,0 +1,109 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    margin: 0;
+}
+
+header{
+    background-color: #02a889;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    justify-content: space-between;
+    height: 100px;
+}
+
+header div{
+    align-items: center ;
+    display: flex;  
+    gap: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+header div img{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 35px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:hover {
+    color: #d1c388;
+}
+
+section{
+    justify-content: center;
+}
+
+.div1{
+    border: 1px solid #02a889;
+    align-items: center;
+    margin: 20px;
+    display: flex;
+}
+
+.div1 img{
+    width: 500px;
+    height: 500px;
+}
+
+.div1 p{
+    width: 500px;
+    display: inline-block;;
+}
+
+.div1 h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    margin: 10px;   
+    align-self:  baseline;
+}
+
+section{
+    justify-content: center;
+}
+
+.div2{
+    border: 1px solid #148dd1;
+    align-items: center;
+    margin: 20px;
+    display: flex;
+    justify-content: end;
+}
+
+
+.div2 p{
+    width: 500px;
+    display: inline-block;
+}
+
+.div2 h2{           
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    margin: 10px;
+    align-self: baseline;
+}
+
+.div2 img{
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+}
