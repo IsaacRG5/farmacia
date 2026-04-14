@@ -149,18 +149,3 @@ button:hover {
     font-size: 0.95rem;
     color: #4a5568;
 }
-
-@media (max-width: 768px) {
-    .contacto-grid {
-        grid-template-columns: 1fr;
-    }
-    
-    header {
-        flex-direction: column;
-        gap: 15px;
-    }
-    
-    nav a {
-        margin: 0 10px;
-    }
-}
